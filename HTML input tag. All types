@@ -1,0 +1,160 @@
+ <html>
+ 
+     <head>
+         <title>
+	     form
+	     </title>
+     </head>
+ 
+ 
+     <body>
+                <h2> Registration  </h2>
+ 
+         <form>
+	 
+	 
+	 
+	  <!-- input type: search -->
+        <div > 
+		 <label for="Search" > Search:</label>
+		 <input placeholder="search here" type="Search" name="Search" id="Search" required>
+        </div>		
+	 <br>
+	 
+	 
+	 <!-- input type: text -->
+        <div > 
+		 <label for="fullname" > Fullname:</label>
+		 <input placeholder="Enter your full name" type="text" name="fullname" id="fullname" required>
+        </div>		
+	 <br>
+	 
+	 
+	 <!-- input type: email -->
+         <div> 
+		 <label for="email" > Email:</label>
+		 <input placeholder=" ......@gmail.com" type="email" name="email" id="email" required>
+         </div>		
+	    
+		 <div> 
+     <br>
+	 
+	 
+	 <!-- input type: password -->
+		 <label for="password"  > Password:</label>
+		 <input  placeholder=" Enter password"  type="password" name="password" id="password" required>
+        </div>	
+	 <br>
+	 
+	 
+	 <!--input type: date -->
+        <div> 
+		 <label for="dob" >Date of birth:</label>
+		 <input  type="Date" name="dob" id="dob">
+        </div>
+		 
+	 <br>
+	 
+	 
+	 <!-- input type: photo -->
+        <div> 
+		 <label for="photo" >Choose your photo:</label>
+		 <input type="file" name="photo" id="photo" required>
+        </div>		
+	 <br>
+
+
+	 <!-- input type: file -->
+        <div> 
+		 <label for="file" >select a file:</label>
+		 <input type="file" name="file" id="file" required>
+        </div>		
+	 <br>
+
+
+	 <!-- input type: multiple file -->
+        <div> 
+		 <label for="file" >select multiple file:</label>
+		 <input type="file" name="file" id="file" multiple required>
+        </div>		
+	 <br>
+	 
+	 
+	 <!-- input type : radio button -->
+        <div> 
+		 <label>Gender:</label>
+		 
+		 <input type="radio" id="Male" name="Gender"> 
+                 <label for="Male"> Male </label>		 
+		 <input type="radio" id="Female" name="Gender">
+		         <label for="Female"> Female </label>		 
+         <input type="radio" id="others" name="Gender">
+		         <label for="others"> Others </label>		 
+
+	    </div>		
+	 <br>
+	 
+	 
+	 
+	 <!-- input type: checkbox -->
+        <div> 
+		 <label>religion:</label> 
+	
+	<BR>
+		 
+		 		 <INPUT checked TYPE="CHECKBOX"  ID="ISLAM" >
+		 <LABEL FOR="ISLAM">ISLAM</LABEL>
+
+		 		 <INPUT  TYPE="CHECKBOX"  ID="HINDU" >
+		 <LABEL FOR="HINDU">HINDU</LABEL>
+
+		         <INPUT TYPE="CHECKBOX"  ID="CHRISTAN" > 
+		 <LABEL FOR="CHRISTAN">CHRISTAN:</LABEL>
+
+         </DIV>		 
+	    <br>
+		
+		
+		
+		<!-- select type: option select -->
+         <div>
+		 <label for="department">Department </label>
+		     <select id="department" name=" department">
+			     <option> CSE </option>
+			     <option selected> EEE </option>
+			     <option> LLB </option>
+			     <option> Pharmacy </option>
+			 
+			 </select>
+		 </div>
+	 <br>
+		 
+		 
+		 
+		 <!-- type: textarea -->
+		 <div>
+		     
+			 <label for="message"> Message: </label>
+			 <br>
+			 <textarea id="message" cols="30" rows="15" placeholder="write your comment here" >  </textarea>	 
+		 </div>
+	 <br>
+	 
+	 
+	 
+	     <!-- input type: submit and reaet -->
+		 <div>
+		     <input type="submit" value="register"> 
+		     <input type="reset" value="clear" disabled>
+		     <input type="reset" value="clear" >
+		 
+		 </div>
+	 
+	      </form>
+ 
+ 
+     </body>
+ 
+ 
+ 
+ </html>
